@@ -1,11 +1,6 @@
 #JSON Parser
 def parse(string):
 	string.replace("\n","")
-	#print(string)
-	#print(string[0])
-	#if not(string[0] == "{" and string[-1] == "}"):
-	#	return False
-	#string = string[1:-1]
 	ret = {}
 	temp = ""
 	key = ""
