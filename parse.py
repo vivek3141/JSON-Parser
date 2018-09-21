@@ -1,6 +1,6 @@
 import re
 
-#Parser func
+#Parser function
 def parse(string):
 	string.replace("\n","")
 	ret = {}
