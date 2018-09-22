@@ -1,6 +1,6 @@
 import re
 
-#Parser function
+#Parser function for JSON
 def parse(string):
 	string.replace("\n","")
 	ret = {}
